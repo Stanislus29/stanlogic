@@ -5,7 +5,7 @@
 <br/>
 
 <img src="https://img.shields.io/badge/Python-3.8%2B-0B3D91?style=flat-square&logo=python&logoColor=white" alt="Python 3.8+"/>
-<img src="https://img.shields.io/pypi/v2.1.2/stanlogic?style=flat-square&color=0B3D91&logo=pypi&logoColor=white" alt="PyPI version"/>
+<img src="https://img.shields.io/pypi/v/stanlogic?style=flat-square&color=0B3D91&logo=pypi&logoColor=white" alt="PyPI version"/>
 <img src="https://img.shields.io/badge/NumPy-accelerated-0B3D91?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
 <img src="https://img.shields.io/badge/License-MIT-0B3D91?style=flat-square" alt="MIT License"/>
 
