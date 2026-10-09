@@ -219,20 +219,17 @@ The project’s central research question is how Boolean hypercubes collapse: wh
 If you use StanLogic in research, teaching, benchmarking, or software, cite the repository using the metadata in [`StanLogic/CITATION.cff`](StanLogic/CITATION.cff).
 
 ```text
-Somtochukwu Stanislus Emeka-Onwuneme. StanLogic: A Python Package for Boolean Simplification and Logic Computation. Stan's Technologies.
+Somtochukwu Stanislus Emeka-Onwuneme. StanLogic: A Python Package for Boolean Simplification and Logic Computation. 
 ```
 
 ## License
 
-StanLogic is dual-licensed:
-
-- [GNU Affero General Public License v3.0](LICENCE) for open-source use.
-- A commercial license for use cases requiring different distribution or usage terms. See [COMMERCIAL_LICENSE_REQUEST.md](COMMERCIAL_LICENSE_REQUEST.md).
+StanLogic is licensed under [MIT LICENSE](LICENSE)
 
 ---
 
 <div align="center">
 
-**Somtochukwu Stanislus Emeka-Onwuneme** · Stan's Technologies
+**Somtochukwu Stanislus Emeka-Onwuneme** 
 
 </div>
