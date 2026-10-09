@@ -1,14 +1,25 @@
+from pathlib import Path
 from setuptools import setup, find_packages
 
-with open("requirements.txt") as f:
-    requirements = [line.strip() for line in f if line.strip() and not line.startswith("#")]
+# Locate requirements.txt relative to setup.py's location
+here = Path(__file__).parent.resolve()
+req_file = here / "requirements.txt"
+
+if req_file.exists():
+    requirements = [
+        line.strip()
+        for line in req_file.read_text(encoding="utf-8").splitlines()
+        if line.strip() and not line.startswith("#")
+    ]
+else:
+    requirements = []
 
 setup(
     name="StanLogic",
-    version="2.1.0",
+    version="2.1.1",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    author="Stan's Technologies",
+    author="Somtochukwu Stanislus Emeka-Onwuneme",
     description="An advanced KMap solver and logic simplification engine",
     python_requires=">=3.8",
     install_requires=requirements,
