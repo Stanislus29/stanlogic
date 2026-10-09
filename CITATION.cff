@@ -1,0 +1,38 @@
+
+cff-version: 1.2.2
+message: "If you use this software, please cite it as below."
+type: software
+title: "StanLogic: Boolean Minimization Through Geometric Clustering and Hierarchical Decomposition"
+authors:
+  - family-names: "Emeka-Onwunume"
+    given-names: "Somtochukwu Stanislus"
+    affiliation: "Stase Intelligence"
+    email: "somtochukwu.eo@outlook.com"
+    orcid: "https://orcid.org/0009-0005-2357-0780"
+repository-code: "https://github.com/Stanislus29/stanlogic"
+url: "https://github.com/Stanislus29/stanlogic"
+abstract: >-
+  StanLogic is a Python library for Boolean function minimization and
+  computational logic. It combines bitmask-based operations, geometric
+  clustering, and hierarchical decomposition to investigate the simplification
+  of Boolean systems. The project includes logic minimization utilities,
+  prime implicant processing, Verilog generation, benchmarking, equivalence
+  testing, and experimental analysis of Boolean hypercube structure and
+  higher-dimensional minimization. It supports research in algorithm design,
+  computational mathematics, digital logic, and logic synthesis.
+keywords:
+  - Boolean algebra
+  - Boolean minimization
+  - Karnaugh maps
+  - Geometric clustering
+  - Boolean hypercube
+  - Hierarchical decomposition
+  - Logic synthesis
+  - Computational mathematics
+  - Algorithm design
+  - Digital electronics
+  - Verilog
+  - Python
+license: MIT
+date-released: 2026-10-09
+version: "2.1.2"

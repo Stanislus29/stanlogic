@@ -1,0 +1,73 @@
+
+{
+  "title": "StanLogic: A Python Package for Boolean Simplification and Logic Computation",
+  "description": "StanLogic is a Python library and research workspace for Boolean minimization using Karnaugh-map structure, geometric clustering, and hierarchical decomposition. It implements bitmask-based grouping, prime implicant filtering, coverage verification, and higher-dimensional clustering methods for simplifying Boolean systems. The library supports SOP and POS minimization, with utilities for Verilog generation and HTML reports. It also provides benchmarking, equivalence testing, cluster-density analysis, and experiments investigating the structural limits of Boolean hypercube minimization. StanLogic is intended for research, computational logic, digital electronics, and the study of scalable Boolean minimization algorithms. Results for larger-variable systems are experimental and should not be interpreted as guarantees of globally optimal minimization.",
+  "creators": [
+    {
+      "name": "Emeka-Onwunume, Somtochukwu Stanislus",
+      "affiliation": "Stase Intelligence",
+      "orcid": "0009-0005-2357-0780"
+    }
+  ],
+  "contributors": [],
+  "keywords": [
+    "Boolean algebra",
+    "Boolean minimization",
+    "Karnaugh maps",
+    "geometric clustering",
+    "Boolean hypercube",
+    "prime implicants",
+    "logic synthesis",
+    "symbolic logic",
+    "algorithm design",
+    "computational mathematics",
+    "digital electronics",
+    "Verilog",
+    "Python"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "upload_type": "software",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Stanislus29/stanlogic",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "subjects": [
+    {
+      "term": "Boolean algebra",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Logic minimization",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Computational mathematics",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Digital logic design",
+      "scheme": "keyword"
+    },
+    {
+      "term": "Algorithm design",
+      "scheme": "keyword"
+    }
+  ],
+  "grants": [],
+  "version": "2.1.2",
+  "publication_date": "2026-10-09",
+  "notes": "StanLogic combines Boolean minimization implementations with an active research workspace for investigating geometric clustering, hierarchical decomposition, and the behaviour of Boolean hypercubes. The repository includes benchmarks, equivalence checks, and experimental analyses. The software is intended for research and computational exploration; minimization optimality depends on the algorithm and input size.",
+  "references": []
+}
