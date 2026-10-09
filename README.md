@@ -6,7 +6,7 @@
 
 <img src="https://img.shields.io/badge/Python-3.8%2B-0B3D91?style=flat-square&logo=python&logoColor=white" alt="Python 3.8+"/>
 <img src="https://img.shields.io/badge/NumPy-accelerated-0B3D91?style=flat-square&logo=numpy&logoColor=white" alt="NumPy"/>
-<img src="https://img.shields.io/badge/License-AGPL--3.0-0B3D91?style=flat-square" alt="AGPL-3.0 License"/>
+<img src="https://img.shields.io/badge/License-MIT-0B3D91?style=flat-square" alt="MIT License"/>
 
 <br/>
 
