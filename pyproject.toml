@@ -6,13 +6,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "stanlogic"
 version = "2.1.2"
+license = "MIT"
 authors = [
   { name = "Somtochukwu Stanislus Emeka-Onwunume", email = "somtochukwueo@outlook.com" }
 ]
 description = "Boolean minimization through geometric clustering and hierarchical decomposition."
 readme = "README.md"
 requires-python = ">=3.8"
-license = "MIT"
 keywords = [
     "boolean-algebra",
     "boolean-minimization",
@@ -35,13 +35,12 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
-    "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent"
 ]
 
 [tool.setuptools.packages.find]
-where = ["src"]
+where = ["stanlogic/src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["src"]
+pythonpath = ["stanlogic/src"]
